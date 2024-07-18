@@ -1,0 +1,48 @@
+@charset "UTF 8";
+
+@font-face {
+  font-family: amor;
+  src: url(fonts/Milla\ Cilla\ -\ Personal\ Use.otf);
+}
+
+@font-face {
+  font-family: openSans;
+  src: url(fonts/OpenSans-Regular.ttf);
+}
+
+body {
+  background-image: linear-gradient(to right, #f30438e0, #e01541d0);
+}
+
+main {
+  background-color: white;
+  height: 1250px;
+  border-radius: 7px;
+  margin: auto;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.37);
+  width: 1050px;
+}
+
+h1 { 
+  font-family: 'amor';
+  font-weight: lighter;
+  color: black;
+  text-align: center;
+  font-size: 65px;
+}
+
+h1:hover {
+  text-decoration: underline;
+  color: #e01541d0;
+}
+
+
+main > p {
+  font-family: 'openSans';
+  text-align: center;
+  text-align: justify;
+  font-weight: bolder;
+  text-indent: 30px;
+  font-size: 20px;
+  float: left;
+}

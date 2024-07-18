@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fotos favoritas</title>
+  <link rel="shortcut icon" href="favicon/heart.png" type="image/x-ico">
+
+  <style>
+    body {
+      background-image: linear-gradient(to right, #f30438e0, #e01541d0);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+      font-family: Arial, sans-serif;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+      grid-gap: 10px;
+      width: 100%;
+      max-width: 1200px;
+      margin-bottom: 20px;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+
+    .back-button {
+      margin-top: 20px;
+    }
+
+    .back-button img {
+      width: 50px;
+      height: auto;
+      transition: transform 0.3s;
+    }
+
+    .back-button img:hover {
+      transform: scale(1.1);
+    }
+  </style>
+</head>
+<body>
+  <div class="gallery">
+    <img src="37.jpg" alt="Foto 1">
+    <img src="2.jpg" alt="Foto 2">
+    <img src="5.jpg" alt="Foto 5">
+    <img src="7.jpg" alt="Foto 7">
+    <img src="6.jpg" alt="Foto 6">
+    <img src="10.jpg" alt="Foto 10">
+    <img src="12.jpg" alt="Foto 12">
+    <img src="13.jpg" alt="Foto 13">
+    <img src="45.jpg" alt="Foto 14">
+    <img src="15.jpg" alt="Foto 15">
+    <img src="16.jpg" alt="Foto 16">
+    <img src="17.jpg" alt="Foto 17">
+    <img src="18.jpg" alt="Foto 18">
+    <img src="35.jpg" alt="Foto 19">
+    <img src="20.jpg" alt="Foto 20">
+    <img src="23.jpg" alt="Foto 23">
+    <img src="24.jpg" alt="Foto 24">
+    <img src="25.jpg" alt="Foto 25">
+  </div>
+  <a href="../SecunPage/secundPage.html" class="back-button">
+    <img src="botao-voltar.png" alt="btn voltar">
+  </a>
+</body>
+</html>
